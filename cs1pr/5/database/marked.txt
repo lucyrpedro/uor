@@ -1,0 +1,36 @@
+Trying to build the database programs using the suplied compile.sh
+./compile.sh
+OK: Could compile
+Trying to delete dvd.dat
+rm: cannot remove '*.dat': No such file or directory
+dvd-add Checking the input from the exercise sheet
+Output of dvd-add seems to be OK!
+dvd-ls Checking the input from the exercise sheet
+1,Programming advanced,91 
+Output of dvd-add seems to be OK!
+dvd-rm Checking the input using the ID: 1
+Output of dvd-rm seems to be OK!
+dvd-ls Rechecking if the DVD has been deleted
+Output of dvd-add seems to be OK!
+dvd-add again
+Output of dvd-add seems to be OK!
+dvd-add again
+Output of dvd-add seems to be OK!
+dvd-ls for two DVDs
+1,Test1,100 
+2,Test2,50 
+Output of dvd-ls seems to be OK!
+dvd-rm Checking the input using the ID: 1
+Output of dvd-rm seems to be OK!
+dvd-ls after deleting first DVD
+2,Test2,50 
+Output of dvd-ls seems to be OK!
+Checking for header in dvd-ls
+ID,Name,TotalLength
+Header is OK
+Trying to remove all DVD ids listed in dvd-ls using dvd-rm
+Deleting 2
+Deleted 2
+Checking that all DVD are removed
+Seems to be OK
+12/12 marks

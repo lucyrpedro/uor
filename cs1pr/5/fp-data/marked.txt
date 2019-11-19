@@ -1,0 +1,20 @@
+Trying to build print-fp.c: 
+gcc -Wall print-fp.c
+OK!
+Test 1 OK
+Test 2 ERR: data doesn't match.
+Arguments: NaN
+>>> Got >>>>>>>>
+0|11111111|10000000000000000000000<<<<<<<<<<<<<<<<
+
+>>> Expected >>>
+0|11111111|11111111111111111111111
+<<<<<<<<<<<<<<<<
+As the sheet states:
+The header math.h provides NAN and INFINITY macros, these are the expected values.
+Test 3 OK
+Test 4 OK
+Test 5 OK
+Test 6 OK
+
+5/6 marks
